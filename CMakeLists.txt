@@ -14,3 +14,8 @@ add_executable(gds_server
 
 target_include_directories(gds_server PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(gds_server PRIVATE open62541::open62541)
+add_executable(node_b_server node_b_server.cpp)
+target_link_libraries(node_b_server PRIVATE open62541::open62541)
+
+add_executable(node_a_client node_a_client.cpp)
+target_link_libraries(node_a_client PRIVATE open62541::open62541)
