@@ -106,7 +106,7 @@ int main() {
         UA_Client_delete(p2pClient);
         return 1;
     }
-    std::cout << "[NODE A] P2P session created! Reading ...(Ctrl+C para parar)...\n";
+    std::cout << "[NODE A] P2P session created! Reading ...(Ctrl+C to end process)...\n";
 
     while (running) {
         UA_Variant val;
@@ -132,7 +132,7 @@ int main() {
 
             std::cout << "[NODE A] Attempting CreateSession() on " << cachedEndpoint << " ...\n";
             if (UA_Client_connect(p2pClient, cachedEndpoint.c_str()) == UA_STATUSCODE_GOOD) {
-                std::cout << "[NODE A - SUCCESS] Session Activated! Processo restored without GDS.\n\n";
+                std::cout << "[NODE A - SUCCESS] Session Activated! Process restored without GDS.\n\n";
             }
         }
         sleep(2);
