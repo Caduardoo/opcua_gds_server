@@ -17,6 +17,7 @@ cmake -B build
 cmake --build build
 
 ```
+# On multiple terminals, run the following:
 
 1. **Terminal 1:** Start GDS:
 ```bash
