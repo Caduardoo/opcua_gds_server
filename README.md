@@ -1,6 +1,6 @@
 This repository contains an implementation of GDS (Global Discovery Server) using Open62541!
 
-### Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Caduardoo/opcua_gds_server
@@ -9,7 +9,7 @@ cd opcua_gds_server
 
 ```
 
-### Compiling and Execution
+## Compiling and Execution
 
 ```bash
 cmake -B build
@@ -17,7 +17,7 @@ cmake -B build
 cmake --build build
 
 ```
-# On multiple terminals, run the following:
+### On multiple terminals, run the following:
 
 1. **Terminal 1:** Start GDS:
 ```bash
