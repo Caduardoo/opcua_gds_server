@@ -4,6 +4,7 @@ This repository contains an implementation of GDS (Global Discovery Server) usin
 
 ```bash
 git clone https://github.com/Caduardoo/opcua_gds_server
+
 cd opcua_gds_server
 
 ```
@@ -13,9 +14,6 @@ cd opcua_gds_server
 ```bash
 cmake -B build
 
-```
-
-```bash
 cmake --build build
 
 ```
